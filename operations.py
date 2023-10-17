@@ -1,4 +1,4 @@
-def multiply(num_1, num_2):
-    result = num_1 * num_2
-    print(f'{num_1} x {num_2} is equal to {result}')
+def division(num_1, num_2):
+    result = num_1 / num_2
+    print(f'{num_1} / {num_2} is equal to {result}')
     return result
