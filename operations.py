@@ -1,4 +1,4 @@
-def exponentiation(num_1, num_2):
-    result = num_1 ** num_2
-    print(f'{num_1}^{num_2} is equal to {result}')
+def mod(num_1, num_2):
+    result = num_1 % num_2
+    print(f'{num_1} mod {num_2} is equal to {result}')
     return result

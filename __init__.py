@@ -1,4 +1,4 @@
-from operations import exponentiation
+from operations import mod
 def game():
     score = 0
     while True:
@@ -12,7 +12,7 @@ def game():
         num_2 = input('Enter second number: ')
         answer = int(input('Enter you answer: '))
         if option == 1:
-            result = exponentiation(num_1, num_2)
+            result = mod(num_1, num_2)
             if result == answer:
                 score += 4
                 print('Correct!!')
